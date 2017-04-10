@@ -1,0 +1,87 @@
+/*  Main  */
+.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.text-danger{
+  background:#a94442;
+  color:#FFFFFF;
+  padding:5px;
+  border-radius:5px;
+  margin:8px;
+}
+head, body {
+  background: url(../img/bg.png);
+}
+.container{
+  background-color:#FFFFFF;
+  margin-top:20px;
+  padding:5px;
+  border:1px solid #333333;
+  border-radius:4px;
+  box-shadow: 3px #333333;
+  min-height:500px;
+  -webkit-box-shadow: 0px 3px 18px 0px rgba(51,51,51,1);
+  -moz-box-shadow: 0px 3px 18px 0px rgba(51,51,51,1);
+  box-shadow: 0px 3px 18px 0px rgba(51,51,51,1);
+}
+.loginBlock{
+  background-color:#FFFFFF;
+  margin-top:20px;
+  padding:55px;
+  border:1px solid #333333;
+  border-radius:7px;
+  box-shadow: 3px #333333;
+  min-height:500px;
+  -webkit-box-shadow: 0px 3px 18px 0px rgba(51,51,51,1);
+  -moz-box-shadow: 0px 3px 18px 0px rgba(51,51,51,1);
+  box-shadow: 0px 3px 18px 0px rgba(51,51,51,1);
+}
+.boxLeft{
+  margin-top:15px;
+  border-right:1px solid rgba(51,51,51,0.3);
+}
+.intro{
+  display:block;
+  margin:0 auto;
+  text-align: center;
+}
+.menu{
+  margin-top:5vh;
+}
+.introLeft{text-align:center; margin-top: 30px;}
+.introLeft a:hover{
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+}
+.userInfo{padding-bottom:10px;}
+.userInfo img, .userInfo p, .userInfo a{
+  float:left;
+}
+.userInfo p{
+  margin-top:5px;
+  margin-left:5px;
+}
+.userInfo a{
+  margin:-2px;
+} 
+.userInfo .dropdown-menu{
+position: absolute;
+top: 0;
+margin-top: 30px;}
+.menu a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:30px;
+    color:#333333;
+}
