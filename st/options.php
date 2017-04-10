@@ -1,6 +1,3 @@
 <?php
-$loginBaza = 'root';
-$passBaza = '';
-$tableBaza = 'sitehell';
-$ipBaza = 'localhost';
+require_once('../options.php');
 ?>
